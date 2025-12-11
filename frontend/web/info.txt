@@ -1,0 +1,17 @@
+Web Frontend Klasörü
+====================
+
+Bu klasör projenin web uygulaması kodlarını içerir.
+
+Teknoloji: React
+
+İçerik:
+- React component'leri
+- Sayfalar (pages/routes)
+- State yönetimi
+- API çağrıları
+- UI/UX bileşenleri
+- Stil dosyaları (CSS/SCSS)
+- Statik varlıklar (images, icons)
+
+Web uygulaması tarayıcıda çalışır ve kullanıcı arayüzü sağlar.

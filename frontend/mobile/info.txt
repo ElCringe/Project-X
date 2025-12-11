@@ -1,0 +1,18 @@
+Mobile Frontend Klasörü
+=======================
+
+Bu klasör projenin mobil uygulaması kodlarını içerir.
+
+Teknoloji: Flutter
+Platformlar: Android, Linux
+
+İçerik:
+- Flutter widget'ları
+- Ekranlar (screens)
+- State yönetimi
+- API entegrasyonları
+- Yerel özellikler (kamera, konum, vs.)
+- Platform-specific kodlar (Android, Linux)
+
+Not: iOS, macOS, Web ve Windows platformları proje gereksinimlerine göre kaldırılmıştır.
+Sadece Android ve Linux platformları desteklenmektedir.

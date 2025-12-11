@@ -1,0 +1,14 @@
+Backend Klasörü
+================
+
+Bu klasör projenin backend (sunucu tarafı) kodlarını içerir.
+
+İçerik:
+- API endpoint'leri
+- Veritabanı bağlantıları
+- İş mantığı (business logic)
+- Servisler ve controller'lar
+- Middleware'ler
+- Kimlik doğrulama ve yetkilendirme
+
+Backend teknolojisi: (Henüz belirlenmedi - Node.js, Python, Go, vs.)
