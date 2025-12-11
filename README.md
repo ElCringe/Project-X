@@ -10,7 +10,7 @@ Backend ve frontend bileşenlerine sahip çok platformlu bir uygulama projesi.
 - ✅ Push yapmadan önce kodunuzu test edin
 - ✅ Gereksiz dosyaları commit etmeyin
 - ❌ Çalışmayan kod push etmeyin
-- ❌ Gün ortasında push yapmaktan kaçının
+- ❌ main branch ta Çalışmayin
 
 
 ### Commit Mesajları
