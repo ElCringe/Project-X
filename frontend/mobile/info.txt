@@ -6,13 +6,29 @@ Bu klasör projenin mobil uygulaması kodlarını içerir.
 Teknoloji: Flutter
 Platformlar: Android, Linux
 
-İçerik:
-- Flutter widget'ları
-- Ekranlar (screens)
-- State yönetimi
-- API entegrasyonları
-- Yerel özellikler (kamera, konum, vs.)
-- Platform-specific kodlar (Android, Linux)
+Dosya Yapısı:
+-------------
 
-Not: iOS, macOS, Web ve Windows platformları proje gereksinimlerine göre kaldırılmıştır.
-Sadece Android ve Linux platformları desteklenmektedir.
+lib/
+├── main.dart                          # Uygulama giriş noktası (MaterialApp ve LoginScreen)
+└── pages/                             # Tüm sayfa widget'ları
+    ├── login_screen.dart              # Giriş ekranı
+    ├── home_screen.dart               # Ana ekran (BottomNavigationBar yönetimi)
+    └── tabs/                          # NavigationBar tab sayfaları
+        ├── home_page.dart             # Ana sayfa tab içeriği
+        ├── search_page.dart           # Arama tab içeriği
+        └── profile_page.dart          # Profil tab içeriği
+
+android/                               # Android platform kodu
+linux/                                 # Linux platform kodu
+test/                                  # Test dosyaları
+
+Özellikler:
+-----------
+- Login ekranından başlayan akış
+- BottomNavigationBar ile 3 ana tab
+- Temiz kod organizasyonu (her tab ayrı dosya)
+- Page transition animasyonları
+- Material Design komponenler
+
+
